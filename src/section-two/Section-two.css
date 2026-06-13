@@ -1,0 +1,104 @@
+.ab-apple {
+  width: 100%;
+  height: 393px;
+  display: flex;
+  gap: 80px;
+  padding: 70px 125px;
+}
+
+.know-your {
+  width: 280px;
+  height: 253px;
+  animation: knowYour 0.7s ease-in-out;
+}
+
+@keyframes knowYour {
+  from{
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.ab-apple h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.ab-apple blockquote {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.run-in {
+  width: 280px;
+  height: 229px;
+  animation: runIn 0.7s ease-in-out;
+}
+
+@keyframes runIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.dots {
+  cursor: pointer;
+}
+
+.just-do {
+  width: 280px;
+  height: 199px;
+  animation: justDo 0.7s ease-in-out;
+}
+
+@keyframes justDo {
+  from{
+    opacity: 0;
+    transform: translate(100%);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  background-color: #ea625c;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #EA625C;
+  transition: transform 0.1s ease;
+}
+
+.links a:hover {
+  transform: translateX(3px);
+}
