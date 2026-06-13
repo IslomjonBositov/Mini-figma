@@ -77,3 +77,31 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 900px){
+  .section-three {
+    flex-direction: column;
+    height: auto;
+    padding: 100px 20px 40px;
+    gap: 30px;
+  }
+
+  .nike-sport {
+    width: 100%;
+    height: auto;
+  }
+
+  .nike-sport h2 {
+    font-size: 32px;
+  }
+
+  .sec-three-img {
+    width: 100%;
+  }
+
+  .sec-three-img img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+}

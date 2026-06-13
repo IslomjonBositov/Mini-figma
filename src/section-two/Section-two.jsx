@@ -1,13 +1,9 @@
 import "./Section-two.css";
 import dots from "../assets/dots-divider.png";
-import App from "../App.jsx"
 
 function SectionTwo() {
   return (
     <section id='about' className="ab-apple">
-      <div href={App} className="quick-back">
-          <a href="../App.jsx">↑</a>
-      </div>
       <div className="know-your">
         <h3>Know your runs. In and out.</h3>
         <blockquote>

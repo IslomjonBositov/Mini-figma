@@ -3,7 +3,6 @@ import "./Footer.css"
 function Footer(){
   return(
     <footer id='services' className='footer'>
-      {/* <div className="empty"></div> */}
 
       <div className="take-control">
         <h2>Take control of your health. </h2>

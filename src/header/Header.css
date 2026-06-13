@@ -30,11 +30,11 @@
 }
 
 @keyframes nav {
-  from{
+  from {
     opacity: 0;
     transform: translate(100%);
   }
-  to{
+  to {
     opacity: 1;
     transform: translate(0);
   }
@@ -67,4 +67,43 @@
 
 .nav ul a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    background-color: #fff;
+  }
+
+  @keyframes logo {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+  @keyframes nav {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+
+
+  .nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 13px;
+  }
 }
