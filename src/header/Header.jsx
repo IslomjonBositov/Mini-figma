@@ -8,16 +8,16 @@ function Header() {
       <nav className="nav">
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Offers</a>
+            <a href="#offers">Offers</a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <a href="">How can we help you?</a>
         </ul>

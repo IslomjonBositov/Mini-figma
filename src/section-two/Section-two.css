@@ -6,6 +6,68 @@
   padding: 70px 125px;
 }
 
+.about {
+  position: relative;
+}
+
+.quick-back {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  /* width: 40px;
+  height: 40px; */
+  background-color: #EA625C;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  animation: quickBack 3s ease-in-out;
+}
+
+@keyframes quickBack {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+
+.quick-back a {
+  text-decoration: none;
+  color: white;
+}
+
 .know-your {
   width: 280px;
   height: 253px;

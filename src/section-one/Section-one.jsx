@@ -3,7 +3,7 @@ import watch from "../assets/intro-bg.png"
 
 function SectionOne() {
   return (
-    <section className="ab-freedom">
+    <section id='home' className="ab-freedom">
       <div className="freedom">
         <h2>Freedom calls.</h2>
         <blockquote className='freedom-text'>Answer a call from your surfboard. Ask Siri to send a message. Stream your favorite songs on your run. And do it all while leaving your phone behind. Introducing Apple Watch Series 3 with cellular. Now you have the freedom to go with just your watch.</blockquote>

@@ -3,7 +3,7 @@ import watchInHand from "../assets/watch-in-hand.jpg"
 
 function SectionThree(){
   return(
-    <section className='section-three'>
+    <section id='offers' className='section-three'>
       <div className="nike-sport">
         <h2>Nike Sport Band.
           Light. Flexible.
