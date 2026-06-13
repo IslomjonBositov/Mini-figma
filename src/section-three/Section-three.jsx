@@ -14,7 +14,7 @@ function SectionThree(){
           <button type='submit'>Buy now</button>
       </div>
       <div className="sec-three-img">
-        <img src={watchInHand} alt="watch" />
+        <img src={watchInHand} loading='lazy' alt="watch" />
       </div>
     </section>
   )

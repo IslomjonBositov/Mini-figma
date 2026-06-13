@@ -10,7 +10,7 @@ function SectionOne() {
         <button type='button'>Watch the keynote</button>
       </div>
       <div className="freedom-img">
-        <img src={watch} alt="watch" />
+        <img src={watch} loading='lazy' alt="watch" />
       </div>
     </section>
   );
