@@ -27,10 +27,10 @@
   padding-left: 40px;
   border-left: 3px solid #888888;
   margin-bottom: 30px;
-  animation: text 0.7s ease-in-out;
+  animation: textThree 0.7s ease-in-out;
 }
 
-@keyframes text {
+@keyframes textThree {
   from {
     opacity: 0;
     transform: translate(-100%);
