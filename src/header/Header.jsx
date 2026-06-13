@@ -3,7 +3,7 @@ import logo from "../assets/apple-logo.png";
 
 function Header() {
   return (
-    <header className="header">
+    <header id='head' className="header">
       <a href="../App.jsx"><img className='logo' src={logo} alt="logo" /></a>
       <nav className="nav">
         <ul>

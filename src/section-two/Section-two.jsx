@@ -6,7 +6,7 @@ function SectionTwo() {
   return (
     <section id='about' className="ab-apple">
       <div href={App} className="quick-back">
-        <a href="">↑</a>
+          <a href="../App.jsx">↑</a>
       </div>
       <div className="know-your">
         <h3>Know your runs. In and out.</h3>

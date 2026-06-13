@@ -12,6 +12,10 @@
   color: yellow;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1250px;
   min-height: auto;

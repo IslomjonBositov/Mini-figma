@@ -7,6 +7,10 @@
   padding: 0 125px;
 }
 
+#offers {
+  scroll-margin-top: 40px;
+}
+
 .nike-sport {
   width: 490px;
   height: 444px;

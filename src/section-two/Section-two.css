@@ -6,8 +6,9 @@
   padding: 70px 125px;
 }
 
-.about {
+#about {
   position: relative;
+  scroll-margin-top: 80px;
 }
 
 .quick-back {

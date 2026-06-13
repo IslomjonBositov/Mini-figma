@@ -6,6 +6,10 @@
   padding: 0 125px;
 }
 
+#home {
+  scroll-margin-top: 40px;
+}
+
 .freedom {
   position: absolute;
   top: 91px;
