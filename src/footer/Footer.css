@@ -66,11 +66,12 @@
 @media (max-width: 900px) {
   .footer {
     height: auto;
-    /* min-width: 450px; */
     width: 100%;
     padding: 60px 20px;
     justify-content: center;
     align-items: flex-start;
+    background-position: center;
+    background-size: cover;
   }
 
   .take-control {
