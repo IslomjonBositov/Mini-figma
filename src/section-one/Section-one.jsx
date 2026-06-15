@@ -1,13 +1,13 @@
 import "./Section-one.css";
 import watch from "../assets/intro-bg.png"
 
-function SectionOne() {
+function SectionOne({soh, sot, btn}) {
   return (
     <section id='home' className="ab-freedom">
       <div className="freedom">
-        <h2>Freedom calls.</h2>
-        <blockquote className='freedom-text'>Answer a call from your surfboard. Ask Siri to send a message. Stream your favorite songs on your run. And do it all while leaving your phone behind. Introducing Apple Watch Series 3 with cellular. Now you have the freedom to go with just your watch.</blockquote>
-        <button type='button'>Watch the keynote</button>
+        <h2>{soh}</h2>
+        <blockquote className='freedom-text'>{sot}</blockquote>
+        <button type='button'>{btn}</button>
       </div>
       <div className="freedom-img">
         <img src={watch} loading='lazy' alt="watch" />

@@ -1,20 +1,18 @@
 import "./Section-three.css"
 import watchInHand from "../assets/watch-in-hand.jpg"
 
-function SectionThree(){
+function SectionThree({sec3h, sec3t, btn}){
   return(
     <section id='offers' className='section-three'>
       <div className="nike-sport">
-        <h2>Nike Sport Band.
-          Light. Flexible.
-          Breathable.</h2>
+        <h2>{sec3h}</h2>
           <blockquote>
-            Made from the same durable, lightweight fluoroelastomer as the original Apple Watch Sport Band, the Nike Sport Band reduces weight and improves ventilation via row after row of compression-molded perforations.
+            {sec3t}
           </blockquote>
-          <button type='submit'>Buy now</button>
+          <button type='submit'>{btn}</button>
       </div>
       <div className="sec-three-img">
-        <img src={watchInHand} loading='lazy' alt="watch" />
+        <img src={watchInHand} loading='lazy' alt="watch"/>
       </div>
     </section>
   )

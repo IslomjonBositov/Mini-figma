@@ -1,25 +1,27 @@
 import "./Header.css";
 import logo from "../assets/apple-logo.png";
 
-function Header() {
+function Header({m1, m2, m3, m4, m5}) {
   return (
-    <header id='head' className="header">
-      <a href="../App.jsx"><img className='logo' src={logo} alt="logo" loading="lazy" /></a>
+    <header id="head" className="header">
+      <a href="../App.jsx">
+        <img className="logo" src={logo} alt="logo" loading="lazy" />
+      </a>
       <nav className="nav">
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">{m1}</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">{m2}</a>
           </li>
           <li>
-            <a href="#offers">Offers</a>
+            <a href="#offers">{m3}</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services">{m4}</a>
           </li>
-          <a href="+998907535500">How can we help you?</a>
+          <a href="">{m5}</a>
         </ul>
       </nav>
     </header>

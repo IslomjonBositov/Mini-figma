@@ -1,41 +1,32 @@
 import "./Section-two.css";
 import dots from "../assets/dots-divider.png";
 
-function SectionTwo() {
+function SectionTwo({knur, knurt, run, runt, just, justt, lnk}) {
   return (
     <section id='about' className="ab-apple">
       <div className="know-your">
-        <h3>Know your runs. In and out.</h3>
-        <blockquote>
-          Train smarter with more in-run stats. Want to compare a run to your
-          last five? Just swipe left. Mark splits by selecting pause or using
-          gestures, like tapping the screen or double-clicking the side button.
-          And get a full post-run report, including elevation.
-        </blockquote>
+        <h3>{knur}</h3>
+        <blockquote>{knurt}</blockquote>
         <img className='dots' src={dots} alt="switch" />
       </div>
 
       <div className="run-in">
-        <h3>Run in good spirits.</h3>
+        <h3>{run}</h3>
         <blockquote>
-          A little support can go a long way. You can receive encouraging emoji
-          from friends. And reminders triggered by your friends’ shared
-          activity, the current weather, or your own history give you every
-          reason to run.
+         {runt}
         </blockquote>
         <img className='dots' src={dots} alt="switch" />
       </div>
 
       <div className="just-do">
-        <h3>Just do it. Sunday.</h3>
+        <h3>{just}</h3>
         <blockquote>
-          Run every Sunday and see how long you can keep your streak alive. Fuel
-          your run with exclusive Nike+ Run Club playlists on Apple Music.
+          {justt}
         </blockquote>
 
         <div className="links">
           <span className="line"></span>
-        <a href="../App.jsx">Learn more</a>
+        <a href="">{lnk}</a>
         </div>
       </div>
     </section>
