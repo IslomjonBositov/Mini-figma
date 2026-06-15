@@ -100,7 +100,7 @@
     height: auto;
     top: 0;
     order: 2;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .freedom h2 {
