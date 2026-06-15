@@ -35,7 +35,7 @@ function SectionTwo() {
 
         <div className="links">
           <span className="line"></span>
-        <a href="Learn more">Learn more</a>
+        <a href="../App.jsx">Learn more</a>
         </div>
       </div>
     </section>
