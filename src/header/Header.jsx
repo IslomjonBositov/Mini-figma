@@ -1,7 +1,6 @@
 import "./Header.css";
-import logo from "../assets/apple-logo.png";
 
-function Header({m1, m2, m3, m4, m5}) {
+function Header({logo, m1, m2, m3, m4, m5}) {
   return (
     <header id="head" className="header">
       <a href="../App.jsx">

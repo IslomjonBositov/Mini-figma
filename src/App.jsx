@@ -3,11 +3,13 @@ import SectionOne from "./section-one/Section-one.jsx";
 import SectionTwo from "./section-two/Section-two.jsx";
 import SectionThree from "./section-three/Section-three.jsx";
 import Footer from "./footer/Footer.jsx";
+import logo from "./assets/apple-logo.png"
 
 function App() {
   return (
     <div className="container">
       <Header
+        logo={logo}
         m1="Home"
         m2="About"
         m3="Offers"
